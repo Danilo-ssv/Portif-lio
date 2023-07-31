@@ -1,0 +1,31 @@
+.section.contact{
+	padding: 50px;
+    background-color: #333;
+}
+.section.contact h1{
+	text-align: center;
+	padding-bottom: 25px;
+}
+.contact-conteiner{
+	margin: auto;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.single-contact{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.single-contact i{
+	font-size: 2rem;
+}
+.single-contact a{
+	color: #fff;
+	font-size: 1.1rem;
+}
+.single-contact a:hover{
+	color: #dc3545;
+	transition: 400ms;
+}

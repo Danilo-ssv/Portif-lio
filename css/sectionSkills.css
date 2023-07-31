@@ -1,0 +1,75 @@
+.section.skills{
+	background-color: #151515;
+}
+.skills-conteiner{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	padding: 50px;
+}
+.skills-conteiner p{
+	text-align: center;
+}
+.cards-conteiner{
+	padding-top: 25px;
+	padding-bottom: 50px;
+	margin: auto;
+	max-width: 620px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 200px);
+	grid-gap: 10px;
+	grid-auto-rows: 200px;
+	justify-content: center;
+}
+.cards{
+	background-color: #333;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	border-radius: 5px;
+	will-change: transform;
+}
+
+.cards::before{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	border-top: 2px solid transparent;
+	border-right: 2px solid transparent;
+	transition: .5s ease-in-out;
+}
+.cards::after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: -1px;
+	left: -1px;
+	border-bottom: 2px solid transparent;
+	border-left: 2px solid transparent;
+	transition: .5s ease-in-out;
+}
+.cards:hover::before{
+	width: 100%;
+	height: 100%;
+	border-top: 2px solid #dc3545;
+	border-right: 2px solid #dc3545;
+}
+.cards:hover::after{
+	width: 100%;
+	height: 100%;
+	border-bottom: 2px solid #dc3545;
+	border-left: 2px solid #dc3545;
+}
+
+i{
+	color: #fff;
+	font-size: 100px;
+}

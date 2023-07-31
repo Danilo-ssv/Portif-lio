@@ -1,0 +1,21 @@
+.section.about{
+    background-color: #151515;
+    padding: 50px;
+}
+.section.about h1{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.section.about > div{
+	margin: auto;
+	max-width: 1000px;
+}
+.about-content, .about-content div{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.section-paragraph i {
+	font-size: 1.5rem;
+	margin-right: 10px;
+}
