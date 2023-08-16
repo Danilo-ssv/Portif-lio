@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/sectionAbout.css">
     <link rel="stylesheet" href="./css/sectionContact.css">
     <link rel="stylesheet" href="./css/sectionSkills.css">
+    <link rel="stylesheet" href="./css/sectionProjects.css">
     <link rel="stylesheet" href="./css/footer.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -30,6 +31,7 @@
                 <li><a href="#about" class="nav-items">SOBRE</a></li>
                 <li><a href="#contact" class="nav-items">CONTATO</a></li>
                 <li><a href="#skills" class="nav-items">HABILIDADES</a></li>
+                <li><a href="#projects" class="nav-items">PROJETOS</a></li>
             </ul>
         </nav>
         <i class="fa-solid fa-bars active" id="open-nav"></i>
@@ -43,7 +45,7 @@
             <h1>Olá, me chamo Danilo</h1>
             <h2>sou <span id="span">Desenvolvedor Web!</span></h2>
             <br/><br/><br/>
-            <a id="download">Download CV</a>
+            <a id="download" href="./currículo.docx" download>Download CV</a>
         </div>
     </section>
 
@@ -173,7 +175,46 @@
                 <label>MongoDb</label>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="section projects" id="projects">
+        <h1 class="section-title">Projetos</h1>
+
+        <div class="styled-divs">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="projects-conteiner">
+            <div class="single-project">
+                <a href="https://armazem-client.vercel.app/" target="_blank">
+                    <div class="project-image armazem">
+                    </div>
+                </a>
+                <h2>Armazem</h2>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <i class="fa-brands fa-node"></i>
+                    <i class="fa-solid fa-database"></i>
+                </div>
+            </div>
+            
+            <div class="single-project">
+                <a href="https://dashbord-6n6s.onrender.com" target="_blank">
+                    <div class="project-image dashbord">
+                    </div>
+                </a>
+                <h2>Dashbord</h2>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-square-js"></i>
+                </div>
+            </div>
+        
+        </div>
     </section>
 
     <!-- Footer -->
